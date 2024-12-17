@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#left{
+    height: 100%;
+    width: 77%;
+}
+#ltop{
+    height: 70%;
+    width: 100%;
+    background-color: #dadada;
+    background-image: url(https://images.unsplash.com/photo-1477554193778-9562c28588c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    padding: 100PX 100px;
+}
+#ltop h1{
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 7px;
+    
+}
+#lbottom{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(27, 22, 22);
+    padding: 100px 150px;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+}
+#lcnten{
+    width: 45%;
+}
+#lcnten h1{
+    font-size: 80px;
+    font-weight: 900;
+
+}
+#lcnten p{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 120;
+    opacity: .5;
+
+}
+
+#rcnten{
+    width: 45%;
+}
+#rcnten h2{
+font-size: 40px;
+font-weight: 900;
+}
+.row{width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.relam{width: 45%;
+    padding: 50px 50px;
+    
+
+}
+.relam h3{
+    font-size: 30px;
+}
+.relam p{
+    font-size: 20px;
+    opacity: .5;
+}
+#right{
+    height: 100%;
+    width: 27%;
+    
+}
+#right #rtop{
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 70px ;
+   
+
+}
+
+#rtop a{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Arial;
+    margin-bottom: 30px;
+}
+#rtop a:nth-child(2)::before{
+    content: "-";
+}
+#rtop a:nth-child(2)::before{
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    color: black;
+
+}
+
+
+
+
+#rbottom{
+    height: 30%;
+    width: 100%;
+    background-color: #dadada;
+}
